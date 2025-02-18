@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'this is private repo accessing through jenkins'
             }
         }
     }
